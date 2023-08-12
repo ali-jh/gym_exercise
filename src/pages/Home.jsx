@@ -9,12 +9,12 @@ const Home = () => {
       <HeroBanner />
       <SearchExercises
         bodyParts={bodyPart}
-        setbodyParts={setbodyPart}
+        setbodyPart={setbodyPart}
         setexercises={setexercises}
       />
       <Exercises
         bodyPart={bodyPart}
-        setbodyPart={setbodyPart}
+        exercises={exercises}
         setexercises={setexercises}
       />
     </Box>
