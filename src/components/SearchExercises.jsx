@@ -5,6 +5,7 @@ import { fetchData, exerciseOptions } from "../utils/fetchData";
 const SearchExercises = () => {
   const [search, setsearch] = useState("");
   const [exercises, setexercises] = useState([]);
+  
   const handelSearch = async () => {
     if (search) {
       const exerciseData = await fetchData(
